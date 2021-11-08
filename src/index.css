@@ -87,8 +87,8 @@ p{
 }
 
 .section{
-  max-width: 80%;
-    width: 100%;
+  max-width: 1200px;
+    width: 80%;
   margin: 0 auto;
 }
 
@@ -129,8 +129,9 @@ img{
   width: 100px;
   object-fit: cover;
   height:100px;
-  border-radius: 50%;
-  margin: 0 auto;
+   margin: 0 auto;
+  border-radius: 50% 10%;
+
 }
 
 .randomBtn{
@@ -141,8 +142,8 @@ img{
   border-radius:0.2rem;
   margin-top: 1rem;
   width: 5rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   height: 1.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   
 }
 
@@ -163,26 +164,14 @@ img{
   transition: var(--transition);
   cursor: pointer;
 }
-
-
-/* 
-
- */
-/* 
-@media screen and (max-width: 922px) {
-  main{
-    width: 100%;
-    max-width: 1100px;
+@media screen and (min-width: 922px) {
+  .container{
+    width: 65%;
+    max-width: 1200px;
     
    }}
-  
-@media screen and (min-width: 922px) {
-  main{
-      width: 60%;
-      max-width: 1200px;
-      
-  
-   }}
+
+ 
 
 @media screen and (min-width: 800px) {
   h1 {
@@ -195,7 +184,7 @@ img{
     font-size: 1.75rem;
   }
   h4 {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   body {
     font-size: 1rem;
@@ -206,4 +195,26 @@ img{
   h4 {
     line-height: 1;
   }
-} */
+  p{
+    font-size: 1.50rem;
+   margin-bottom: 0.9rem;
+ }
+ .myreact-icons {
+  font-size: 2.5rem;
+}
+
+img{
+  width: 200px;
+
+  height:200px;
+  border-radius: 50% 10%;
+
+}
+
+.randomBtn{
+  font-size: 1.2rem;
+  width: 7rem;
+  height: 2.5rem;
+}
+
+} 
