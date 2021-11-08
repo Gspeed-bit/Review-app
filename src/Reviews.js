@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight} from 'react-icons/fa';
- const Reviews = ({review, prevPerson, nextPerson, randomPerson, randomPerson}) => {
+ const Reviews = ({review, prevPerson, nextPerson, randomPerson}) => {
 
 
     return (

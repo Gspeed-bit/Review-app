@@ -2,7 +2,7 @@ import React, {useState} from "react"
 import reviewsList from "./data"
 import Reviews from "./Reviews"
 import './App.css';
-import reviews from "./data";
+
 
 function App() {
 
@@ -10,6 +10,8 @@ function App() {
   const {...review} = reviewsList[person] // Spread operator was used to get the content in the external data
 
 
+
+  // checkNumber help to solve the error gotten each time we exceed the length of the Review array
   const checkNumber = (number)=>{
       if(number > reviewsList.length-1){
         return 0
@@ -37,13 +39,20 @@ function App() {
     })
   }
 
- 
+ //This helps in creating a random number withput repeatation
+  const randomPerson = (() =>{
+    let randomPerson = Math.floor(Math.random() * reviewsList.length);
+    if( randomPerson === person){
+       randomPerson = person +1
+    }
+    return setPerson(checkNumber(randomPerson))
+  })
 
   return (
     <div className="App">
       <h1> Our Reviews </h1>
       <div>
-        <Reviews   randomPerson ={randomPerson} nextPerson={nextPerson} prevPerson={prevPerson} review={review} />
+        <Reviews  randomPerson ={randomPerson} nextPerson={nextPerson} prevPerson={prevPerson} review={review} />
       </div>
  
     </div>
