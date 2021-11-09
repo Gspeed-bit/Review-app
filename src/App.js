@@ -49,7 +49,7 @@ function App() {
   })
 
   return (
-  <div className="section">
+  <section className="section">
     <main>
       <header>
       <h1> Our Reviews </h1>
@@ -57,7 +57,7 @@ function App() {
       </header>
           <Reviews  randomPerson ={randomPerson} nextPerson={nextPerson} prevPerson={prevPerson} review={review} />
       </main>
-      </div>
+      </section>
   );
 }
 

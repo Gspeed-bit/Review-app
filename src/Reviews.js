@@ -1,10 +1,8 @@
 
-import React, {useState} from "react"
+import React from "react"
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight} from 'react-icons/fa';
  const Reviews = ({review, prevPerson, nextPerson, randomPerson}) => {
-    const [readMore, setReadMore] = useState(true)
-
-    return (
+       return (
         <div className="container">
             <article>
             <p>{review.text} </p>
