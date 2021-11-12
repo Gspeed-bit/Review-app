@@ -1,21 +1,30 @@
+
 const reviews = [
+  {
+    id: 0,
+    name: 'adetutu daniel',
+    job: 'nurse',
+    image: " " ,
+    text:
+      "Nurses dispense comfort, compassion, and caring without even a prescription.",
+  },
   {
     id: 1,
     name: 'susan smith',
     job: 'web developer',
     image:
-      'https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
+      'https://images.pexels.com/photos/3862371/pexels-photo-3862371.jpeg?cs=srgb&dl=pexels-thisisengineering-3862371.jpg&fm=jpg',
     text:
       "The test of the machine is the satisfaction it gives you. There isn't any other test. If the machine produces tranquility it's right. If it disturbs you it's wrong until either the machine or your mind is changed.",
   },
   {
     id: 2,
     name: 'anna johnson',
-    job: 'web designer',
+    job: 'Fashion designer',
     image:
       'https://images.pexels.com/photos/10132965/pexels-photo-10132965.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     text:
-    "We must not blame programmers for their bugs. They belong to them only until the code is merged to the repository. After that, all bugs are ours!",
+    "Fashion is not something that exists in dresses only. Fashion is in the sky, in the street, fashion has to do with ideas, the way we live, what is happening.",
   },
   {
     id: 3,
@@ -28,12 +37,12 @@ const reviews = [
   },
   {
     id: 4,
-    name: 'Peter Noah',
-    job: 'the boss',
+    name: 'Peter sarah',
+    job: 'Lawyer',
     image:
-      'https://images.pexels.com/photos/10131163/pexels-photo-10131163.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+  "  https://images.pexels.com/photos/4427622/pexels-photo-4427622.jpeg?cs=srgb&dl=pexels-august-de-richelieu-4427622.jpg&fm=jpg",
     text:
-      'Any software project must have a technical leader, who is responsible for all technical decisions made by the team and have enough authority to make them. Responsibility and authority are two mandatory components that must be present in order to make it possible to call such a person an architect.',
+      "It costs a lot to sue a magazine, and it's too bad that we don't have a system where the losing team has to pay the winning team's lawyers.",
   },
    {
     id: 5,
@@ -56,11 +65,11 @@ const reviews = [
    {
     id: 7,
     name: 'Monika Walter ',
-    job: 'intern',
+    job: 'Student',
     image:
-      'https://images.pexels.com/photos/8219320/pexels-photo-8219320.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      'https://images.pexels.com/photos/8062278/pexels-photo-8062278.jpeg?cs=srgb&dl=pexels-nataliya-vaitkevich-8062278.jpg&fm=jpg',
     text:
-      "Software is easy to make, except when you want it to do something new. And then, of course, there is a corollary: The only software that's worth making is software that does something new.",
+      "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
   },
    {
     id: 8,

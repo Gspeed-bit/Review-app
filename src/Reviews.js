@@ -1,4 +1,4 @@
-
+import shoe1 from './martha.jpg'
 import React from "react"
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight} from 'react-icons/fa';
  const Reviews = ({review, prevPerson, nextPerson, randomPerson}) => {
@@ -6,7 +6,7 @@ import { FaArrowAltCircleLeft, FaArrowAltCircleRight} from 'react-icons/fa';
         <div className="container">
             <article>
             <p>{review.text} </p>
-            <img src={review.image} alt={review.name}  />
+            <img src={review.image + shoe1} alt={review.name}  />
             <h4> {review.name} </h4>
             <p style={{color: 'red', textTransform:"capitalize"}}>{review.job} </p>
             <div className="myreact-icons">
